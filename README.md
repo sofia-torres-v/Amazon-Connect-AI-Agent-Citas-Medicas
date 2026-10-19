@@ -1,29 +1,26 @@
 # Citas Médicas - AI Agent + Amazon Connect
 
-Asistente conversacional para la gestión de citas médicas mediante **chat en Amazon Connect**. Permite consultar disponibilidad, agendar, consultar, reagendar y cancelar citas utilizando lenguaje natural.
+Asistente agéntico de citas médicas con Amazon Connect y Amazon Q in Connect. Utiliza prompts y tools para razonar, decidir acciones y ejecutar operaciones mediante AWS Lambda y DynamoDB.
 
-El proyecto utiliza un **AI Agent de Amazon Q in Connect** para gestionar la conversación y el razonamiento, mientras que **AWS Lambda + DynamoDB** ejecutan las operaciones relacionadas con las citas.
+![ComuniAWS Day 2026](docs/assets/comuniaws-day-2026-banner.png)
 
----
+Proyecto presentado en **ComuniAWS Day 2026**, como parte de la charla **«De intents a prompts: construyendo agentes con Amazon Connect»**.
 
-## 1. ¿Qué es este proyecto?
+> **Idea central:** explorar cómo los AI Agents interpretan solicitudes en lenguaje natural y utilizan herramientas para ejecutar operaciones, mientras el backend aplica las reglas de negocio.
+## 1. Arquitectura del proyecto
 
-Este proyecto muestra cómo construir un asistente conversacional para gestionar citas médicas utilizando servicios serverless de AWS.
+Este proyecto muestra una implementación de un asistente conversacional con servicios serverless de AWS:
 
-La arquitectura combina:
+- **Amazon Connect** para la experiencia conversacional.
+- **Amazon Lex V2** como puente hacia el AI Agent.
+- **Amazon Q in Connect** para el razonamiento del agente.
+- **Flow Module** como herramienta (*Tool*) del agente.
+- **AWS Lambda** para ejecutar las operaciones.
+- **DynamoDB** como base de datos.
 
-* **Amazon Connect** para la experiencia conversacional.
-* **Amazon Lex V2** como puente hacia el AI Agent.
-* **Amazon Q in Connect** para el razonamiento del agente.
-* **Flow Module** como herramienta (Tool) del agente.
-* **AWS Lambda** para ejecutar las operaciones.
-* **DynamoDB** como base de datos.
+La charla abordó la transición de bots basados en **intents y slots** hacia **AI Agents y tools**. Este repositorio se centra en la implementación del agente para la gestión de citas médicas.
 
-El proyecto también nació como una comparación entre un bot tradicional basado en **Amazon Lex V2 + intents/slots** y una arquitectura basada en **AI Agents + Tools**.
-
----
-
-## 2. Arquitectura
+## 2. Diagrama de la arquitectura
 
 ![Arquitectura](docs/assets/arquitectura.png)
 
