@@ -160,9 +160,6 @@ pytest tests/ -v
 
 > ⚠️ Este proyecto utiliza datos ficticios para demostración y pruebas. **No utilizar información real de pacientes ni datos personales.** Las credenciales de AWS tampoco deben almacenarse dentro del repositorio.
 
-## Licencia
-
-Este proyecto está bajo la [Licencia MIT](LICENSE).
 
 ---
 
