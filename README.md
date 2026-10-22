@@ -1,8 +1,9 @@
+
 # Citas Médicas - AI Agent
 
 Asistente agéntico de citas médicas con Amazon Connect y Amazon Q in Connect. Utiliza prompts y tools para razonar, decidir acciones y ejecutar operaciones mediante AWS Lambda y DynamoDB.
 
-Proyecto que explora cómo los AI Agents interpretan solicitudes en lenguaje natural y utilizan herramientas para ejecutar operaciones, mientras el backend aplica las reglas de negocio. Presentado en **ComuniAWS Day 2026** como parte de la charla *«De intents a prompts: construyendo agentes con Amazon Connect»*.
+> Proyecto presentado en **ComuniAWS Day 2026** como parte de la charla «De intents a prompts: construyendo agentes con Amazon Connect».
 
 **Idea central:** la transición de bots basados en intents y slots hacia AI Agents y tools para la gestión de citas médicas.
 
@@ -158,13 +159,8 @@ pytest tests/ -v
 
 ## Datos de prueba
 
-> ⚠️ Este proyecto utiliza datos ficticios para demostración y pruebas. **No utilizar información real de pacientes ni datos personales.** Las credenciales de AWS tampoco deben almacenarse dentro del repositorio.
-
-## Licencia
-
-Este proyecto está bajo la [Licencia MIT](LICENSE).
+> Este proyecto utiliza datos ficticios para demostración y pruebas. **No utilizar información real de pacientes ni datos personales.** Las credenciales de AWS tampoco deben almacenarse dentro del repositorio.
 
 ---
 
 **Desarrollado por [Sofía Torres](https://github.com/sofia-torres-v) y [Yahaira Pérez](https://github.com/YahairaPerez1994)** ✨
-
