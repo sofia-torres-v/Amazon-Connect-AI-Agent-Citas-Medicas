@@ -1,19 +1,6 @@
-
-<div align="center">
-
-# 🏥 Citas Médicas - AI Agent
-
-[![AWS SAM](https://img.shields.io/badge/AWS%20SAM-Serverless-FF9900?style=for-the-badge&logo=amazon-web-services&logoColor=white)](https://aws.amazon.com/serverless/sam/)
-[![Python](https://img.shields.io/badge/Python-3.13-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![Amazon Connect](https://img.shields.io/badge/Amazon%20Connect-AI-FF9900?style=for-the-badge&logo=amazon-web-services&logoColor=white)](https://aws.amazon.com/connect/)
-[![DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?style=for-the-badge&logo=amazondynamodb&logoColor=white)](https://aws.amazon.com/dynamodb/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
+# Citas Médicas - AI Agent
 
 Asistente agéntico de citas médicas con Amazon Connect y Amazon Q in Connect. Utiliza prompts y tools para razonar, decidir acciones y ejecutar operaciones mediante AWS Lambda y DynamoDB.
-
-</div>
-
-## Descripción
 
 Proyecto que explora cómo los AI Agents interpretan solicitudes en lenguaje natural y utilizan herramientas para ejecutar operaciones, mientras el backend aplica las reglas de negocio. Presentado en **ComuniAWS Day 2026** como parte de la charla *«De intents a prompts: construyendo agentes con Amazon Connect»*.
 
