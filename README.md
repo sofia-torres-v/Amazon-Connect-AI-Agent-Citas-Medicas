@@ -159,7 +159,7 @@ pytest tests/ -v
 
 ## Datos de prueba
 
-> Este proyecto utiliza datos ficticios para demostración y pruebas. **No utilizar información real de pacientes ni datos personales.** Las credenciales de AWS tampoco deben almacenarse dentro del repositorio.
+> ⚠️ Este proyecto utiliza datos ficticios para demostración y pruebas. **No utilizar información real de pacientes ni datos personales.** Las credenciales de AWS tampoco deben almacenarse dentro del repositorio.
 
 ---
 
